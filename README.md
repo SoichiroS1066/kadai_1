@@ -1,6 +1,6 @@
 # kadai1
 [![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-![IC](https://github.com/SoichiroS1066/robosys2024/actions/workflows/test_month_days.yml/badge.svg)
+![IC](https://github.com/SoichiroS1066/kadai_1/actions/workflows/test_month_days.yml/badge.svg)
 
 こちらは、2024年度 千葉工業大学先進工学部未来ロボティクス学科2年後期のロボットシステム学の課題1用のリポジトリです。
 
@@ -15,7 +15,7 @@ month_days.py
 ## リポジトリの使用方法
 - *GitHub* から *robosys2024* のリポジトリをクローン  
 ```
-$ git clone https://github.com/SoichiroS1066/kadai1.git
+$ git clone https://github.com/SoichiroS1066/kadai_1.git
 ```  
 - *kadai1*へ移動
 ```
