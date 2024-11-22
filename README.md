@@ -44,7 +44,7 @@ $ python3 month_days.py
 　　　　↓  
 　月を入力し *Enter*  
   
-- 📜 実行例
+-  実行例
 ```
 $ python3 month_days.py     # 入力
 2024                        # 入力
