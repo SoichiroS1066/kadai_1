@@ -1,0 +1,24 @@
+name: test_month_days
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Ubuntu 環境で実行
+    strategy:
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10"]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3  # リポジトリをクローン
+
+    - name: Run tests
+      run: |
+        bash -xv ./kadai1/month_days.bash  # テストを実行するコマンド
