@@ -17,9 +17,9 @@ month_days.py
 ```
 $ git clone https://github.com/SoichiroS1066/kadai_1.git
 ```  
-- *kadai1*へ移動
+- *kadai_1*へ移動
 ```
-$ cd kadai1
+$ cd kadai_1
 ```
 - スクリプト実行環境の確認
 ```
