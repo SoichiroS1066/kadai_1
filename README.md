@@ -40,7 +40,7 @@ $ python3 month_days.py
   
 `$ python3 month_days.py`  
 　　　　↓  
-　西暦を入力し *Enter*  
+　待機状態になるので西暦を入力し *Enter*  
 　　　　↓  
 　月を入力し *Enter*  
   
