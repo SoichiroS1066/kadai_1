@@ -7,12 +7,12 @@
 ## 使用言語
 <img src="https://img.shields.io/badge/-Python-yellow.svg?logo=python&style=for-the-badge">
 
-## リポジトリの概要
+## 📚 リポジトリの概要
 *month_days.py*
 - 西暦と月を入力するとその月が何日まであるかを教えてくれる
 
 
-## リポジトリの使用方法
+## 📥 リポジトリの使用方法
 - *GitHub* から *robosys2024* のリポジトリをクローン  
 ```
 $ git clone https://github.com/SoichiroS1066/kadai_1.git
@@ -32,10 +32,10 @@ $ python3 month_days.py
 
 ## *month_days.py*
 
-## 機能
+## 🛠️ 機能
 西暦と月を入力するとその月が何日まであるかを教えてくれる
 
-## 使い方
+## ⚙️ 使い方
 - 先述した *month_days.py* を実行する  
   
 `$ python3 month_days.py`  
@@ -44,7 +44,7 @@ $ python3 month_days.py
 　　　　↓  
 　月を入力し *Enter*  
   
-- 実行例
+- 📜 実行例
 ```
 $ python3 month_days.py     # 入力
 2024                        # 入力
@@ -52,14 +52,14 @@ $ python3 month_days.py     # 入力
 1~30
 ```
 
-## 必要なソフトウェア
+## 🖥️ 必要なソフトウェア
 - *Python*  
 テスト済みバージョン: 3.7 ~ 3.10
 
-## テスト環境
+## 🌍 テスト環境
 - *Ubuntu 24.04.1 LTS*
 - *Python 3.7 ~ 3.10*
 
-# LICENSE
+# 📄 LICENSE
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 - © 2024 Soichiro Suzuki
