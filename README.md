@@ -46,9 +46,9 @@ $ python3 month_days.py
   
 - 実行例
 ```
-$ python3 month_days.py
-2024
-11
+$ python3 month_days.py     # 入力
+2024                        # 入力
+11                          # 入力
 1~30
 ```
 
