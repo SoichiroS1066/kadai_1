@@ -20,12 +20,12 @@ jobs:
       uses: actions/checkout@v2  # リポジトリをクローン
 
     - name: Check if the file exists
-      run: ls -l ./kadai1  # kadai1 ディレクトリ内のファイルをリスト表示して存在を確認
+      run: ls -l ./kadai_1  # kadai1 ディレクトリ内のファイルをリスト表示して存在を確認
 
     - name: Grant execute permissions
-      run: chmod +x ./kadai1/month_days.bash  # 実行権限を付与
+      run: chmod +x ./kadai_1/month_days.bash  # 実行権限を付与
 
     - name: Run tests
       run: |
-        bash -xv ./kadai1/month_days.bash  # テストを実行するコマンド
+        bash -xv ./kadai_1/month_days.bash  # テストを実行するコマンド
 
