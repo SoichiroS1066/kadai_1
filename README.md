@@ -35,7 +35,7 @@ $ python3 month_days.py
 ## 🛠️ 機能
 西暦と月を入力するとその月が何日まであるかを教えてくれる
 
-## ⚙️ 使い方
+## 📝 手順
 - 先述した *month_days.py* を実行する  
   
 `$ python3 month_days.py`  
