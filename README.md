@@ -13,15 +13,15 @@
 
 
 ## 📥 リポジトリの使用方法
-- *GitHub* から *robosys2024* のリポジトリをクローン  
+- リポジトリをクローン  
 ```
 $ git clone https://github.com/SoichiroS1066/kadai_1.git
 ```  
-- *kadai_1*へ移動
+- リポジトリディレクトリに移動
 ```
 $ cd kadai_1
 ```
-- スクリプト実行環境の確認
+- Pythonバージョンの確認（推奨: 3.7〜3.10）
 ```
 $ python3 --version
 ```
