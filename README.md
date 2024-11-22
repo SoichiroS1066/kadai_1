@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/-Python-yellow.svg?logo=python&style=for-the-badge">
 
 ## リポジトリの概要
-month_days.py
+*month_days.py*
 - 西暦と月を入力するとその月が何日まであるかを教えてくれる
 
 
@@ -36,7 +36,7 @@ $ python3 month_days.py
 西暦と月を入力するとその月が何日まであるかを教えてくれる
 
 ## 使い方
-- 先述した month_days.py を実行する  
+- 先述した *month_days.py* を実行する  
   
 `$ python3 month_days.py`  
 　　　　↓  
