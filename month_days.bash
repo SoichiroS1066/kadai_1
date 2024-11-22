@@ -7,7 +7,7 @@ ng () {
     res=1
 }
 
-res=0
+res=0    
 
 ### 通常の入力 ###
 out=$(echo -e "2024\n2" | ./kadai1/month_days.py)
