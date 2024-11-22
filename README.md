@@ -1,4 +1,4 @@
-# kadai1
+# kadai_1
 [![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 ![IC](https://github.com/SoichiroS1066/kadai_1/actions/workflows/test_month_days.yml/badge.svg)
 
