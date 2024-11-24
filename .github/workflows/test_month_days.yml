@@ -10,22 +10,19 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest  # Ubuntu 環境で実行
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ["3.7", "3.8", "3.9", "3.10"]
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # リポジトリをクローン
-
-    - name: Check if the file exists
-      run: ls -l ./  # 現在のディレクトリにファイルが存在するか確認
+      uses: actions/checkout@v3
 
     - name: Grant execute permissions
-      run: chmod +x ./month_days.bash  # 実行権限を付与
+      run: chmod +x ./month_days  # 実行ファイル名を修正
 
     - name: Run tests
       run: |
-        bash -xv ./month_days.bash  # テストを実行するコマンド
+        bash -xv ./test_month_days.bash  # テストスクリプトを実行
 

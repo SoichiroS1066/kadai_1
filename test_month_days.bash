@@ -10,25 +10,25 @@ ng () {
 res=0    
 
 ### 通常の入力 ###
-out=$(echo -e "2024\n2" | ./month_days.py)
+out=$(echo -e "2024\n2" | ./month_days)
 [ "${out}" = "1~29" ] || ng "$LINENO"
 
-out=$(echo -e "2023\n4" | ./month_days.py)
+out=$(echo -e "2023\n4" | ./month_days)
 [ "${out}" = "1~30" ] || ng "$LINENO"
 
-out=$(echo -e "2023\n12" | ./month_days.py)
+out=$(echo -e "2023\n12" | ./month_days)
 [ "${out}" = "1~31" ] || ng "$LINENO"
 
 ### 誤った入力 ###
-out=$(echo -e "2023\n13" | ./month_days.py)  # 存在しない月
+out=$(echo -e "2023\n13" | ./month_days)  # 存在しない月
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(echo -e "abc\n2" | ./month_days.py)    # 無効な年
+out=$(echo -e "abc\n2" | ./month_days)    # 無効な年
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(echo -e "" | ./month_days.py)          # 入力がない場合
+out=$(echo -e "" | ./month_days)          # 入力がない場合
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
