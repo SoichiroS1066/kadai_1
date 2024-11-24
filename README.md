@@ -41,7 +41,7 @@ $ echo -e "<西暦> \n<月>" | ./month_days
 
 - 実行例
 ```
-$ echo -e "2024 \n11" | ./month_days     # 入力
+$ echo -e "2024 \n11" | ./month_days
 1~30
 ```
 
