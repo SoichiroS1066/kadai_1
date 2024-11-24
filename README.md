@@ -19,7 +19,7 @@ $ git clone https://github.com/SoichiroS1066/kadai_1.git
 ```
 $ cd kadai_1
 ```
-- スクリプト実行環境の確認
+- Pythonのバージョン確認（推奨: 3.7〜3.10）
 ```
 $ python3 --version
 ```
