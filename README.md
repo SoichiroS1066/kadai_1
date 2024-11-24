@@ -44,7 +44,7 @@ $ echo -e "<西暦> \n<月>" | ./month_days
 $ echo -e "2024 \n11" | ./month_days    # 2024年11月の場合
 1~30
 
-$ echo -e "2024 \n1" | ./month_days     # 2025年1月の場合
+$ echo -e "2025 \n1" | ./month_days     # 2025年1月の場合
 1~31
 
 $ echo -e "2030 \n4" | ./month_days     # 2030年4月の場合
