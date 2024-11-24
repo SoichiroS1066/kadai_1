@@ -6,7 +6,7 @@
 こちらは、2024年度 千葉工業大学先進工学部未来ロボティクス学科2年後期のロボットシステム学の課題1用のリポジトリです。
 
 ## リポジトリの概要
-*month_days.py*
+*month_days*
 - 西暦と月を入力するとその月が何日まであるかを教えてくれる
 
 
@@ -25,10 +25,10 @@ $ python3 --version
 ```
 - スクリプトを実行
 ```
-$ python3 month_days.py
+$ echo -e "<西暦> \n<月>" | ./month_days
 ```
 
-## *month_days.py*
+## *month_days*
 
 ## 機能
 西暦と月を入力するとその月が何日まであるかを教えてくれる
@@ -36,17 +36,11 @@ $ python3 month_days.py
 ## 使い方
 - 先述した *month_days* を実行する  
   
-`$ python3 month_days`  
-　　　　↓  
-　待機状態になるので西暦を入力し *Enter*  
-　　　　↓  
-　月を入力し *Enter*  
-  
+`$ echo -e "<西暦> \n<月>" | ./month_days`  
+
 - 実行例
 ```
-$ python3 month_days.py     # 入力
-2024                        # 入力
-11                          # 入力
+$ echo -e "2024 \n11" | ./month_days     # 入力
 1~30
 ```
 
