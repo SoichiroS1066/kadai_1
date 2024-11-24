@@ -1,11 +1,9 @@
 # kadai_1
 [![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 ![IC](https://github.com/SoichiroS1066/kadai_1/actions/workflows/test_month_days.yml/badge.svg)
+<img src="https://img.shields.io/badge/-Python-yellow.svg?logo=python&style=for-the-badge">
 
 こちらは、2024年度 千葉工業大学先進工学部未来ロボティクス学科2年後期のロボットシステム学の課題1用のリポジトリです。
-
-## 使用言語
-<img src="https://img.shields.io/badge/-Python-yellow.svg?logo=python&style=for-the-badge">
 
 ## リポジトリの概要
 *month_days.py*
